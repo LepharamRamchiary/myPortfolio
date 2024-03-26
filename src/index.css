@@ -30,3 +30,14 @@ ul {
   font-weight: 600;
   cursor: pointer;
 }
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
