@@ -1,7 +1,8 @@
 import React from 'react'
 import "./FooterStyle.css"
 
-import { FaHome, FaMailBulk, FaPhone } from 'react-icons/fa'
+import { FaHome, FaMailBulk, FaPhone, FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
+
 
 const Footer = () => {
     return (
@@ -23,7 +24,18 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='right'></div>
+                <div className='right'>
+                    <h4>About Me</h4>
+                    <p>LEPHARAM RAMCHIARY, a passionate web developer 
+                        fresher, adept in HTML, CSS, and JavaScript,
+                         eager to craft innovative, user-friendly 
+                         interfaces.</p>
+                    <div className='social'>
+                        <FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                    </div>
+                </div>
             </div>
         </div>
     )
