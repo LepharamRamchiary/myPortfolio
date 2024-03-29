@@ -1,28 +1,28 @@
-import ProjectImage1 from "../assets/project1.jpg"
-import ProjectImage2 from "../assets/project4.jpg"
+import ProjectImage1 from "../assets/project1.avif"
+import ProjectImage2 from "../assets/project2.avif"
 import ProjectImage3 from "../assets/project3.jpg"
 
 const ProjectCardData = [
     {
         imgsrc: ProjectImage1,
-        title: "E-commerce Website Design",
-        text: "Discover, shop, and save with our diverse range of products. Conveniently browse, purchase, and enjoy swift delivery. Elevate your online shopping experience today!",
-        view: "https://www.google.com/search?q=ipl&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQk4MjY1MmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8 ",
-        source: "https://www.google.com/search?q=unsplash&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQoyMDUwMjlqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8 "
+        title: "Disney Plus Clone",
+        text: "Developing a Disney Plus clone frontend using React, Firebase, and styled-components. Create a user-friendly interface replicating Disney Plus features.",
+        view: "https://disneyplus-clone-ce3ad.web.app",
+        source: "https://github.com/LepharamRamchiary/disney_clone"
     },
     {
         imgsrc: ProjectImage2,
-        title: "Social Media Website",
-        text: "Discover, shop, and save with our diverse range of products. Conveniently browse, purchase, and enjoy swift delivery. Elevate your online shopping experience today!",
-        view: "https://www.google.com/search?q=ipl&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQk4MjY1MmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8 ",
-        source: "https://www.google.com/search?q=unsplash&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQoyMDUwMjlqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8 "
+        title: "WhatsApp Clone",
+        text: "Develop a WhatsApp clone frontend using React, Express, and MongoDB without hosting. Create messaging functionalities, user authentication, and real-time updates.",
+        view: "/host",
+        source: "https://github.com/LepharamRamchiary/Whatsapp-Clone "
     },
     {
         imgsrc: ProjectImage3,
-        title: "HotelBooking Website",
-        text: "Discover, shop, and save with our diverse range of products. Conveniently browse, purchase, and enjoy swift delivery. Elevate your online shopping experience today!",
-        view: "https://www.google.com/search?q=ipl&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQk4MjY1MmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8 ",
-        source: "https://www.google.com/search?q=unsplash&rlz=1C1OPNX_enIN1044IN1044&oq=&gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxBFGDsYwgPSAQoyMDUwMjlqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8 "
+        title: "My Portfolio Website",
+        text: "My Portfolio is a React-based frontend development project showcasing my skills and projects. It features a user-friendly interface, smooth navigation, and responsive design.",
+        view: "/host",
+        source: "https://github.com/LepharamRamchiary/myPortfolio "
     }
 ];
 
