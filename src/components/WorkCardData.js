@@ -21,7 +21,7 @@ const ProjectCardData = [
         imgsrc: ProjectImage3,
         title: "My Portfolio Website",
         text: "My Portfolio is a React-based frontend development project showcasing my skills and projects. It features a user-friendly interface, smooth navigation, and responsive design.",
-        view: "/host",
+        view: "https://my-portfolio-omega-jade.vercel.app/",
         source: "https://github.com/LepharamRamchiary/myPortfolio "
     }
 ];
