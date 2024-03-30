@@ -20,20 +20,20 @@ const Footer = () => {
                         <h4><FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} /> 91013 18307</h4>
                     </div>
                     <div className='email'>
-                        <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} /> lepharamchiary@gmail.com</h4>
+                        <a href='mailto:lepharamchiary@gmail.com'><h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} /> lepharamchiary@gmail.com</h4></a>
                     </div>
                 </div>
 
                 <div className='right'>
                     <h4>About Me</h4>
-                    <p>LEPHARAM RAMCHIARY, a passionate web developer 
+                    <p>LEPHARAM RAMCHIARY, a passionate web developer
                         fresher, adept in HTML, CSS, and JavaScript,
-                         eager to craft innovative, user-friendly 
-                         interfaces.</p>
+                        eager to craft innovative, user-friendly
+                        interfaces.</p>
                     <div className='social'>
-                        <FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                        <FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                        <a href='https://www.linkedin.com/in/lepharam-ramchiary-576282215/'><FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
+                        <a href='https://github.com/LepharamRamchiary'><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
+                        <a href='https://www.instagram.com/lepharam/'><FaInstagram size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
                     </div>
                 </div>
             </div>
