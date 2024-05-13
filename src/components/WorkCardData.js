@@ -1,6 +1,8 @@
 import ProjectImage1 from "../assets/project1.avif"
 import ProjectImage2 from "../assets/project2.avif"
 import ProjectImage3 from "../assets/project3.jpg"
+import ProjectImage4 from "../assets/echo.avif"
+import ProjectImage5 from "../assets/youtub.avif"
 
 const ProjectCardData = [
     {
@@ -23,6 +25,20 @@ const ProjectCardData = [
         text: "My Portfolio is a React-based frontend development project showcasing my skills and projects. It features a user-friendly interface, smooth navigation, and responsive design.",
         view: "https://my-portfolio-omega-jade.vercel.app/",
         source: "https://github.com/LepharamRamchiary/myPortfolio "
+    },
+    {
+        imgsrc: ProjectImage4,
+        title: "ExploreEcho",
+        text: "ExploreEcho is a React-based frontend development project.Explore Assam through a simple website featuring attractions, culture, cuisine, travel tips, images, and a contact form for inquiries.",
+        view: "https://explore-echo-rust.vercel.app/",
+        source: "https://github.com/LepharamRamchiary/ExploreEcho"
+    },
+    {
+        imgsrc: ProjectImage5,
+        title: "Youtube Clone",
+        text: "Youtube Clone is a React-based frontend development project.The project mirrors YouTube, enabling users to search and watch videos, replicating its core functionalities effectively within a familiar environment.",
+        view: "https://youtube-clone-six-amber.vercel.app/",
+        source: "https://github.com/LepharamRamchiary/Youtube_Clone"
     }
 ];
 
