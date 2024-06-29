@@ -3,6 +3,7 @@ import ProjectImage2 from "../assets/project2.avif"
 import ProjectImage3 from "../assets/project3.jpg"
 import ProjectImage4 from "../assets/echo.avif"
 import ProjectImage5 from "../assets/youtub.avif"
+import ProjectImage6 from "../assets/dev.png"
 
 const ProjectCardData = [
     {
@@ -39,6 +40,13 @@ const ProjectCardData = [
         text: "Youtube Clone is a React-based frontend development project.The project mirrors YouTube, enabling users to search and watch videos, replicating its core functionalities effectively within a familiar environment.",
         view: "https://youtube-clone-six-amber.vercel.app/",
         source: "https://github.com/LepharamRamchiary/Youtube_Clone"
+    },
+    {
+        imgsrc: ProjectImage6,
+        title: "Developer's Blog",
+        text: "Developer's Blog is a comprehensive blogging platform designed specifically for developers to share their knowledge, experiences, and insights. The application features two distinct panels: one for users and another for administrators.",
+        view: "https://developer-hub-blog.onrender.com",
+        source: "https://github.com/LepharamRamchiary/Developer-Hub-Blog"
     }
 ];
 
