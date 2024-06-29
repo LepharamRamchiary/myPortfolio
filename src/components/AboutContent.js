@@ -17,6 +17,8 @@ import Tail from "../assets/tailwindn.png"
 import Git from "../assets/github.png"
 import FireBase from "../assets/firebase.png"
 import Vercel from "../assets/ver.png"
+import Mongo from "../assets/mongo-removebg-preview.png"
+import Express from "../assets/express-removebg.png"
 
 const AboutContent = () => {
     return (
@@ -24,7 +26,7 @@ const AboutContent = () => {
             <div className='about'>
                 <div className='left'>
                     <h1>Who Am I?</h1>
-                    <p>I'm a fresh React frontend developer, I embark on an exhilarating journey, brimming with passion and determination. Eager to learn, grow, and craft captivating user experiences that leave a lasting impression. </p>
+                    <p>I'm a fresh Full-Stack Developer, specializing in both frontend and backend development, embarking on an exhilarating journey brimming with passion and determination. Eager to learn, grow, and craft captivating user experiences and robust backend solutions that leave a lasting impression.</p>
                     <a href='https://drive.google.com/file/d/1N-rxeLIuQ1e8TdxMqDzB20h34fRlepE1/view?usp=sharing' className='btn'>resume</a>
                     <Link to="/contact">
                         <button className='btn'>Contact</button>
@@ -58,16 +60,22 @@ const AboutContent = () => {
                         <img src={JS} alt='skill_iamge' />
                     </div>
                     <div className='skills-stack'>
+                        <img src={Mongo} alt='skill_iamge' />
+                    </div>
+                    <div className='skills-stack'>
+                        <img src={Express} alt='skill_iamge' />
+                    </div>
+                    <div className='skills-stack'>
                         <img src={ReactJS} alt='skill_iamge' />
+                    </div>
+                    <div className='skills-stack'>
+                        <img src={NodeJS} alt='skill_iamge' />
                     </div>
                     <div className='skills-stack'>
                         <img src={Redux} alt='skill_iamge' />
                     </div>
                     <div className='skills-stack'>
                         <img src={Tail} alt='skill_iamge' />
-                    </div>
-                    <div className='skills-stack'>
-                        <img src={NodeJS} alt='skill_iamge' />
                     </div>
                     <div className='skills-stack'>
                         <img src={MySql} alt='skill_iamge' />
