@@ -5,6 +5,11 @@ import { FaHome, FaMailBulk, FaPhone, FaGithub, FaLinkedinIn, FaInstagram } from
 
 
 const Footer = () => {
+
+    const openGmailCompose = () => {
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=lepharamchiary@gmail.com");
+    };
+
     return (
         <div className='footer'>
             <div className='footer-container'>
@@ -20,16 +25,15 @@ const Footer = () => {
                         <h4><FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} /> 91013 18307</h4>
                     </div>
                     <div className='email'>
-                        <a href='mailto:lepharamchiary@gmail.com'><h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} /> lepharamchiary@gmail.com</h4></a>
+                        <h4 onClick={openGmailCompose} style={{ cursor: 'pointer' }}>
+                            <FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} /> lepharamchiary@gmail.com
+                        </h4>
                     </div>
                 </div>
 
                 <div className='right'>
                     <h4>About Me</h4>
-                    <p>LEPHARAM RAMCHIARY, a passionate web developer
-                        fresher, adept in HTML, CSS, and JavaScript,
-                        eager to craft innovative, user-friendly
-                        interfaces.</p>
+                    <p>Hi, my name is Lepharam Ramchiary. I am a passionate web developer, skilled in HTML, CSS, and JavaScript. As a fresher, I am eager to create innovative and user-friendly interfaces.</p>
                     <div className='social'>
                         <a href='https://www.linkedin.com/in/lepharam-ramchiary-576282215/'><FaLinkedinIn size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
                         <a href='https://github.com/LepharamRamchiary'><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
